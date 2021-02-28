@@ -1,0 +1,14 @@
+commit-msg:
+  scripts:
+    "template_checker":
+      runner: bash
+pre-commit:
+  commands:
+    prettier:
+      run: npm run prettier
+    lint:
+      run: npm run lint
+pre-push:
+  commands:
+#    audit:
+#      run: npm audit
