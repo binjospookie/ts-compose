@@ -1,6 +1,6 @@
 {
   "name": "ts-compose",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Performs right-to-left function composition.",
   "source": "src/index.js",
   "main": "build/index.js",
