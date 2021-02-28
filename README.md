@@ -6,6 +6,10 @@
 
 Performs right-to-left function composition.
 
+```
+yarn add ts-compose
+```
+
 ```typescript
 import { compose } from 'ts-compose';
 
