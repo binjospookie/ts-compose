@@ -6,6 +6,8 @@
 
 Performs right-to-left function composition.
 
+[Try it out](https://codesandbox.io/s/ts-compose-4c8fh?file=/src/index.ts)
+
 ```
 yarn add ts-compose
 ```
@@ -27,5 +29,4 @@ compose(double, addOne, addOne, toUpper)('1'); //=> can't compose toUpper with a
 compose(double, addOne, addOne, fold)(1); //=> expect 2 arguments
 ```
 
-[Try it](https://codesandbox.io/s/ts-compose-4c8fh?file=/src/index.ts)
 
